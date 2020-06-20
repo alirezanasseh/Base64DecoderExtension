@@ -1,0 +1,26 @@
+{
+  "name": "Base64 Decoder",
+  "version": "1.0",
+  "description": "This extension will decode Base64 strings in web pages",
+  "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/sheep16.png",
+      "32": "img/sheep32.png",
+      "48": "img/sheep48.png",
+      "128": "img/sheep128.png"
+    }
+  },
+  "icons": {
+    "16": "img/sheep16.png",
+    "32": "img/sheep32.png",
+    "48": "img/sheep48.png",
+    "128": "img/sheep128.png"
+  },
+  "manifest_version": 2
+}
