@@ -11,9 +11,6 @@ function b64DecodeUnicode(str) {
 }
 
 function onClickHandler(info, tab) {
-    var modal = document.createElement('BUTTON');
-    modal.innerHTML = "Hello";
-    document.body.appendChild(modal);
     prompt("Decoded string", b64DecodeUnicode(info.selectionText))
 }
 
